@@ -8,4 +8,3 @@ def my_each(array)
   end
 end
  
-my_each(collection) {puts "Hello #{i}."}
