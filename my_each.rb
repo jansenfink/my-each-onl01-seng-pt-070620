@@ -1,3 +1,5 @@
+collection = [1, 2, 3, 4]
+
 def my_each(array)
   i = 0
   while i < array.length
@@ -6,5 +8,4 @@ def my_each(array)
   end
 end
  
- collection = [1, 2, 3, 4]
- my_each(collection)
+my_each(collection) {puts "Hello #{i}."}
