@@ -1,3 +1,3 @@
 def my_each # put argument(s) here
-  yield 
+  while i < array.length
 end
